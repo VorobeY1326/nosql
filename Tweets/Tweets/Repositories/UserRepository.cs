@@ -33,7 +33,7 @@ namespace Tweets.Repositories
             return new User
                    {
                        Name = userName,
-                       DisplayName = "Какой-то пользователь",
+                       DisplayName = userName,
                        ImageUrl = new Uri("http://www.kagms.ru/upload/medialibrary/b3a/no-image-icon-md.jpg")
                    };
         }
